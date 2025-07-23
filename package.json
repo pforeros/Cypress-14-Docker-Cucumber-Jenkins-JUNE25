@@ -1,0 +1,23 @@
+{
+  "name": "cypress-14-docker-cucumber-jenkins-june25",
+  "version": "1.0.0",
+  "description": "<https://perficient.udemy.com/course/cypress-ultimate-course/learn/lecture/39701126#overview>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pforeros/Cypress-14-Docker-Cucumber-Jenkins-JUNE25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pforeros/Cypress-14-Docker-Cucumber-Jenkins-JUNE25/issues"
+  },
+  "homepage": "https://github.com/pforeros/Cypress-14-Docker-Cucumber-Jenkins-JUNE25#readme",
+  "dependencies": {
+    "cypress": "^14.5.2"
+  }
+}
