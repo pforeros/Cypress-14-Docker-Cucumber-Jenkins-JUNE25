@@ -29,7 +29,8 @@ console.log(productValue); // Output: 24
 const square = x => x * x;  
 const result = square(4);
 console.log(result); 
-// Output: 25
+
+
 
 
 
