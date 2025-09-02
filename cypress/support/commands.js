@@ -11,6 +11,30 @@
 //
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
+/*Cypress.Commands.add('conduitLogin', (email, password) => {  
+cy.visit('https://react-redux.realworld.io/')
+        cy.contains('Sign in').click()
+        cy.get('input[type="email"]').type(email)
+        cy.get('input[type="password"]').type(password)
+        cy.get('button[type="submit"]').click()
+        cy.contains('Settings').click()
+        })*/
+Cypress.Commands.add("orangehrmlogin", (userName, password) => {
+  // Visit the OrangeHRM login page before each test
+  cy.visit(
+    "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+  );
+  
+  cy.get("input[placeholder='Username']").type(userName, {
+    delay: 0,
+  });
+  cy.get("input[placeholder='Password']").type(password, {
+    delay: 0,
+  });
+
+  cy.get("button[type='submit']").click();
+});
+
 //
 //
 // -- This is a child command --
