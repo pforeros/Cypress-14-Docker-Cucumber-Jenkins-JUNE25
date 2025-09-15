@@ -1,6 +1,8 @@
+
 const { defineConfig } = require("Cypress");
 
 module.exports = defineConfig({
+  projectId: 'p74ngx', // <- add this line
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here

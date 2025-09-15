@@ -4,7 +4,7 @@
   "description": "<https://perficient.udemy.com/course/cypress-ultimate-course/learn/lecture/39701126#overview>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_dashboard": "npx cypress run --record --key 69ebe23c-61b1-43ac-bea2-b446f220aa3a",
     "open": "cypress open",
     "run-electron": "cypress run",
     "smoke-test": "cypress run --spec 'cypress/e2e/smokeTest/*.cy.js'",
